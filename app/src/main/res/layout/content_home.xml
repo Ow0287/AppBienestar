@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.misena.oscar.appbienestar.Home"
+    tools:showIn="@layout/app_bar_home">
+<Button
+    android:id="@+id/btn_informacion"
+    android:layout_width="130dp"
+    android:layout_height="40dp"
+    android:text="@string/txt_informacion"
+    android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_dirigido"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/txt_dirigido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_lugar"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/txt_lugar"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

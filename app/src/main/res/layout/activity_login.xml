@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.misena.oscar.appbienestar.Login">
+<EditText
+    android:id="@+id/edt_coreo"
+    android:layout_width="240dp"
+    android:layout_height="40dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="200dp"
+    android:hint="@string/edt_coreo"
+    android:inputType="textEmailSubject"/>
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:onClick="registrarse"
+        android:text="@string/txt_registrarse" />
+</RelativeLayout>

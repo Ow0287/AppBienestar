@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/txt_mision" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/txt_vision" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/txt_himno" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/txt_administrador" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/txt_rutas" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/txt_info_vocero" />
+        <item
+            android:id="@+id/nav_reglamento"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/txt_reglamento" />
+        <item
+            android:id="@+id/nav_actividad"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/txt_actividades" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/txt_ayuda" />
+    </group>
+
+
+
+</menu>
