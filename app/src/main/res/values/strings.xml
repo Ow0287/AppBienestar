@@ -22,4 +22,9 @@
     <string name="txt_dirigido">Dirigido A.</string>
     <string name="txt_lugar">Lugar</string>
     <string name="texto_informacion">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="txt_centro">CENTRO BIOTECNOLOGICO DEL CARIBE</string>
+    <string name="txt_regional">REGIONAL CESAR</string>
+    <string name="txt_cbc">C B C</string>
+
+
 </resources>

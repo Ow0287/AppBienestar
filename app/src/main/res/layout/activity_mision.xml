@@ -5,5 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.misena.oscar.appbienestar.Mision">
-
+<TextView
+    android:id="@+id/txv_mision"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/txt_mision"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/mision"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="120dp"/>
 </RelativeLayout>
