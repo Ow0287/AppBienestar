@@ -10,9 +10,15 @@
     android:layout_width="240dp"
     android:layout_height="40dp"
     android:layout_centerHorizontal="true"
-    android:layout_marginTop="200dp"
+    android:layout_marginTop="230dp"
     android:hint="@string/edt_coreo"
     android:inputType="textEmailSubject"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
 
     <Button
         android:id="@+id/btn_registrarse"
@@ -22,4 +28,5 @@
         android:layout_marginTop="350dp"
         android:onClick="registrarse"
         android:text="@string/txt_registrarse" />
+
 </RelativeLayout>
