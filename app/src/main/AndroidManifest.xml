@@ -24,7 +24,8 @@
         <activity android:name=".Informacion" />
         <activity android:name=".Mision" />
         <activity android:name=".DirigidoA" />
-        <activity android:name=".Lugar"></activity>
+        <activity android:name=".Lugar" />
+        <activity android:name=".Visionn"></activity>
     </application>
 
 </manifest>
