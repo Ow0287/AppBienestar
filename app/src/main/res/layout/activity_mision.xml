@@ -18,4 +18,11 @@
         android:src="@mipmap/mision"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="120dp"/>
+    <TextView
+        android:id="@+id/texto_mision"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/texto_mision"/>
 </RelativeLayout>
