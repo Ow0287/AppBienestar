@@ -1,8 +1,13 @@
 package com.misena.oscar.appbienestar;
 
-/**
- * Created by user on 22/09/2017.
- */
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class Reglamento {
+public class Reglamento extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_reglamento);
+    }
 }

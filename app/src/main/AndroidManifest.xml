@@ -25,7 +25,12 @@
         <activity android:name=".Mision" />
         <activity android:name=".DirigidoA" />
         <activity android:name=".Lugar" />
-        <activity android:name=".Visionn"></activity>
+        <activity android:name=".Vision" />
+        <activity android:name=".Integrantes" />
+        <activity android:name=".Administrador" />
+        <activity android:name=".Himno" />
+        <activity android:name=".Reglamento" />
+        <activity android:name=".Ayuda"></activity>
     </application>
 
 </manifest>

@@ -11,24 +11,30 @@
     android:layout_height="wrap_content"
     android:text="@string/texto_informacion"
     android:layout_marginTop="60dp"/>
+
     <Button
         android:id="@+id/btn_informacion"
         android:layout_width="130dp"
         android:layout_height="40dp"
-        android:text="@string/txt_informacion"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:onClick="informacion"
+        android:text="@string/txt_informacion" />
+
     <Button
         android:id="@+id/btn_dirigido"
         android:layout_width="130dp"
         android:layout_height="40dp"
-        android:text="@string/txt_dirigido"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:onClick="dirigidoa"
+        android:text="@string/txt_dirigido" />
+
     <Button
         android:id="@+id/btn_lugar"
         android:layout_width="130dp"
         android:layout_height="40dp"
-        android:text="@string/txt_lugar"
         android:layout_marginLeft="255dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:onClick="lugar"
+        android:text="@string/txt_lugar" />
 </RelativeLayout>
