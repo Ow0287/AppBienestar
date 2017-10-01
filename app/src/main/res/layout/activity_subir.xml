@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.misena.oscar.appbienestar.Subir">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_infor"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@mipmap/logo" />
+    <Button
+        android:id="@+id/btn_subir_actividades"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/txt_subir"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="@string/txt_info_vocero"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@mipmap/info" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="@string/txt_actividades"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@mipmap/actividades" />
+</RelativeLayout>

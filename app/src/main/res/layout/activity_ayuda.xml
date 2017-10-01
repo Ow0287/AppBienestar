@@ -13,7 +13,18 @@
     android:text="@string/txt_ayuda"
     android:textStyle="bold"
     android:textSize="@dimen/tamano"/>
+
     <ImageView
         android:layout_width="40dp"
-        android:layout_height="40dp" />
+        android:layout_height="40dp"
+        app:srcCompat="@mipmap/ayuda"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:id="@+id/btn_enviar_sugere"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/txt_sugere"/>
 </RelativeLayout>

@@ -30,7 +30,8 @@
         <activity android:name=".Administrador" />
         <activity android:name=".Himno" />
         <activity android:name=".Reglamento" />
-        <activity android:name=".Ayuda"></activity>
+        <activity android:name=".Ayuda" />
+        <activity android:name=".Subir"></activity>
     </application>
 
 </manifest>

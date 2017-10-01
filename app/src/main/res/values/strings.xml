@@ -31,4 +31,6 @@
     <string name="txt_usuario">Usuario</string>
     <string name="txt_contra">Contraseña</string>
     <string name="txt_ingre">Ingresar</string>
+    <string name="txt_sugere">Enviar sugerencias </string>
+    <string name="txt_subir">Subir Actividades</string>
 </resources>
