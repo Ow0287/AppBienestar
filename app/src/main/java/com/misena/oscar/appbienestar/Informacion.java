@@ -18,7 +18,7 @@ public class Informacion extends AppCompatActivity {
 
     }
     public void dirigidoa(View view){
-        Intent i =new Intent(Informacion.this,DirigidoA.class);
+        Intent i =new Intent(Informacion.this,Informacion.class);
         startActivity(i);
 
     }

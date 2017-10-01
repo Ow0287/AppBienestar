@@ -84,16 +84,16 @@ public class Home extends AppCompatActivity
         if (id == R.id.nav_camera) {
             Intent intent = new Intent(Home.this,Mision.class);
             startActivity(intent);
-            finish();
+
         } else if (id == R.id.nav_gallery) {
             Intent intent = new Intent(Home.this,Vision.class);
             startActivity(intent);
-            finish();
+
 
         } else if (id == R.id.nav_slideshow) {
             Intent intent = new Intent(Home.this,Himno.class);
             startActivity(intent);
-            finish();
+
 
         } else if (id == R.id.nav_manage) {
             Intent intent = new Intent(Home.this,Administrador.class);
@@ -130,5 +130,20 @@ public class Home extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public void informacion(View view){
+        Intent i =new Intent(Home.this,Informacion.class);
+        startActivity(i);
+
+    }
+    public void dirigidoa(View view){
+        Intent i =new Intent(Home.this,Informacion.class);
+        startActivity(i);
+
+    }
+    public void lugar(View view){
+        Intent i =new Intent(Home.this,Lugar.class);
+        startActivity(i);
+
     }
 }

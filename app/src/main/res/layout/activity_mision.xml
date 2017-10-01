@@ -11,7 +11,8 @@
     android:layout_height="wrap_content"
     android:text="@string/txt_mision"
     android:layout_centerHorizontal="true"
-    android:layout_marginTop="50dp"/>
+    android:layout_marginTop="50dp"
+    android:textSize="@dimen/tamano"/>
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -20,9 +21,10 @@
         android:layout_marginLeft="120dp"/>
     <TextView
         android:id="@+id/texto_mision"
-        android:layout_width="250dp"
-        android:layout_height="200dp"
+        android:layout_width="290dp"
+        android:layout_height="400dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text="@string/texto_mision"/>
+        android:text="@string/texto_mision"
+        android:textSize="@dimen/tamano"/>
 </RelativeLayout>

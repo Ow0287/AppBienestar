@@ -21,10 +21,14 @@
     <string name="txt_informacion">Informacion</string>
     <string name="txt_dirigido">Dirigido A.</string>
     <string name="txt_lugar">Lugar</string>
-    <string name="texto_informacion">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="texto_informacion">Esta aplicación nos ayudara a mantenernos informados al tanto de lo que ocurre en el centro biotecnológico del Caribe, a fin de que esos aprendices nuevos se enteren de lo que sucede en el centro. Por medio de esta APP podríamos saber un poco de lo que el usuario desea estar informado, por medio de ello todos los que desean saber más de lo que sucede en el Sena allí podrán tener unos muy buenos resultados de la información que ellos quieren obtener. </string>
     <string name="txt_centro">CENTRO BIOTECNOLOGICO DEL CARIBE</string>
     <string name="txt_regional">REGIONAL CESAR</string>
     <string name="txt_cbc">C B C</string>
     <string name="texto_mision">El sena esta encargado de cumplir la funcion que le corresponde al estado de invertir en el desarrollo social y tecnico de los trabajadores colombianos, ofreciendo y ejecutando la formacion profesional integral, para la incorporacion y el desarrollo de las personas en actividades productivas que contribuyan al desarrollo social, economico y tecnologico del pais </string>
-
+    <string name="texto_vision">En el 2018 el SENA será reconocido por la efectividad de su gestión, sus aportes al empleo decente y a la generación de ingresos, impactando la productividad de las personas y de las empresas; que incidirán positivamente en el desarrollo de las regiones como contribución a una Colombia educada, equitativa y en paz.</string>
+    <string name="txt_infor">Infor. Bienestar Al Aprendiz</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_contra">Contraseña</string>
+    <string name="txt_ingre">Ingresar</string>
 </resources>
