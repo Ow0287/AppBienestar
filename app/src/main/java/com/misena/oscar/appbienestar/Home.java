@@ -91,18 +91,16 @@ public class Home extends AppCompatActivity
 
 
         } else if (id == R.id.nav_slideshow) {
-            Intent intent = new Intent(Home.this,Himno.class);
-            startActivity(intent);
+
+            Intent myIntent = new Intent(Home.this,Himno.class);
+            startActivity(myIntent);
+
 
 
         } else if (id == R.id.nav_manage) {
             Intent intent = new Intent(Home.this,Administrador.class);
             startActivity(intent);
 
-
-        } else if (id == R.id.nav_share) {
-            Intent intent = new Intent(Home.this,Rutas.class);
-            startActivity(intent);
 
 
         } else if (id == R.id.nav_send) {
