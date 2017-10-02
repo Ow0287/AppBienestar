@@ -16,7 +16,7 @@ public class Reglamento extends Activity {
     VideoView videoview;
 
     // Insert your Video URL
-    String VideoURL = "https://www.youtube.com/watch?v=9ZLxc4aYG6M";
+    String VideoURL = "https://www.poli.edu.co/sites/default/files/reglamento-aprendiz-2012-sena.pdf";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +30,9 @@ public class Reglamento extends Activity {
         // Create a progressbar
         pDialog = new ProgressDialog(Reglamento.this);
         // Set progressbar title
-        pDialog.setTitle("Android Video Streaming Tutorial");
+        pDialog.setTitle("Reglamento al Aprendiz SENA");
         // Set progressbar message
-        pDialog.setMessage("Buffering...");
+        pDialog.setMessage("Cargando Reglamento...");
         pDialog.setIndeterminate(false);
         pDialog.setCancelable(false);
         // Show progressbar

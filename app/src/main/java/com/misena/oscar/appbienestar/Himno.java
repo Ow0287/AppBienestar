@@ -17,7 +17,7 @@ public class Himno extends Activity {
     VideoView videoview;
 
     // Insert your Video URL
-    String VideoURL = "https://www.youtube.com/watch?v=e8qR6m7L2yI";
+    String VideoURL = "https://www.youtube.com/watch?v=SDZJjLAbG_Y";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +31,9 @@ public class Himno extends Activity {
         // Create a progressbar
         pDialog = new ProgressDialog(Himno.this);
         // Set progressbar title
-        pDialog.setTitle("Android Video Streaming Tutorial");
+        pDialog.setTitle("Himno Oficial SENA");
         // Set progressbar message
-        pDialog.setMessage("Buffering...");
+        pDialog.setMessage("Cargando Himno...");
         pDialog.setIndeterminate(false);
         pDialog.setCancelable(false);
         // Show progressbar
