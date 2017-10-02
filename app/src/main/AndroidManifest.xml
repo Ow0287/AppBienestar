@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.misena.oscar.appbienestar">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -34,7 +34,8 @@
         <activity android:name=".Reglamento" />
         <activity android:name=".Ayuda" />
         <activity android:name=".Subir" />
-        <activity android:name=".Actividades"></activity>
+        <activity android:name=".Actividades" />
+        <activity android:name=".Rutas"></activity>
     </application>
 
 </manifest>

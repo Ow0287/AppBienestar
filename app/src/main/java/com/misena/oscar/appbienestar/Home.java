@@ -108,7 +108,12 @@ public class Home extends AppCompatActivity
             startActivity(intent);
 
 
-        } else if (id == R.id.nav_reglamento) {
+        } else if (id == R.id.nav_view) {
+        Intent intent = new Intent(Home.this,Rutas.class);
+        startActivity(intent);
+
+
+    }else if (id == R.id.nav_reglamento) {
             Intent intent = new Intent(Home.this,Reglamento.class);
             startActivity(intent);
 
