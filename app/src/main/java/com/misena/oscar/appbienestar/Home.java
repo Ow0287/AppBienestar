@@ -104,7 +104,7 @@ public class Home extends AppCompatActivity
 
 
         } else if (id == R.id.nav_send) {
-            Intent intent = new Intent(Home.this,Informacion.class);
+            Intent intent = new Intent(Home.this,Subir.class);
             startActivity(intent);
 
 

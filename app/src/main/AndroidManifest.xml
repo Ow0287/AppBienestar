@@ -35,7 +35,8 @@
         <activity android:name=".Ayuda" />
         <activity android:name=".Subir" />
         <activity android:name=".Actividades" />
-        <activity android:name=".Rutas"></activity>
+        <activity android:name=".Rutas" />
+        <activity android:name=".Documentos"></activity>
     </application>
 
 </manifest>
