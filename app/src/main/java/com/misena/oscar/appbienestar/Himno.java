@@ -48,6 +48,7 @@ public class Himno extends Activity {
             Uri video = Uri.parse(VideoURL);
             videoview.setMediaController(mediacontroller);
             videoview.setVideoURI(video);
+            videoview.setVideoPath("/mnt/sdcard/video.mp4");
 
         } catch (Exception e) {
             Log.e("Error", e.getMessage());
